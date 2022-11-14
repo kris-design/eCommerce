@@ -1,0 +1,188 @@
+h2 {
+    font-weight: 100;
+}
+
+h3 {
+    font-weight: 100;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+
+i {
+    margin: 10px;
+}
+
+.btn {
+    background: #F3F4F6;
+    font-size: 20px;
+    color: #C4480C;
+}
+
+.btn:hover {
+    color: #F3F4F6;
+    background: #CFCCC7;
+}
+
+a.login {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    margin: 10px;
+}
+a.login:hover {
+    transition: border 0.2s;
+    border-bottom: 1px solid #fff;
+    
+}
+
+.navbar {
+    font-weight: 100;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.fa-user, .fa-cart-shopping {
+    color: #fff;
+}
+.fa-user:hover {
+    color: #DAD0C9;
+}
+.fa-cart-shopping:hover {
+    color: #DAD0C9;
+}
+
+ul.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-link:hover {
+    transition: border 0.2s;
+    border-bottom: 1px solid #fff;
+}
+
+.shopper {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.clothes {
+    border-radius: 8px;
+}
+
+/* HERO IMAGE  */
+#hero {
+    background: url(https://images.unsplash.com/photo-1558769132-cb1aea458c5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80) bottom center / cover no-repeat;
+    min-height: 750px;
+    position: relative;
+}
+
+#header {
+    z-index: 2;
+}
+
+#footerNav {
+    background: #1f1f1f;
+    font-weight: 100;
+   
+}
+
+#shop {
+    background: #CFCCC7;
+}
+
+#quotes i {
+    opacity: 0.3;
+}
+
+#quotes {
+    background: #F3F4F6;
+    height: 600px;
+
+}
+
+#signup-form {
+    margin: 30px;
+}
+
+/* RESPONSIVE SECTION */
+@media  (max-width: 768px) {
+   
+    .shopper {
+        display: none!important;
+    }
+
+    #shop {
+        background: #fff!important;
+
+    }
+    h3 {
+        color: #1F1F1F;
+    }
+    .navbar {
+        background: #1f1f1f!important;
+}
+    .nav-link:hover {
+        border-bottom: none;
+}
+    #quotes {
+        display: none!important;
+        background: #fff!important;
+    }
+
+    #hero {
+        min-height: 650px!important;
+    }
+
+   .nav-link {
+        font-size: 17px!important;
+}
+    h1 {
+        font-size: 4rem;
+}
+
+}
+
+@media (max-width: 820px) {
+    .navbar {
+        background: #1f1f1f!important;
+        opacity: 50%;
+  }
+}
+
+@media (max-width: 912px) {
+    .navbar {
+        background: #1F1F1F!important;
+        opacity: 50%;
+  }
+}
+@media (max-width: 576px) {
+    #hero {
+        min-height: 450px!important;
+    }
+
+    .fa-user, .fa-cart-shopping {
+        margin: 0!important;
+    }
+    a.browse-link {
+        font-size: 17px;
+    }
+   
+}
